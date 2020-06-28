@@ -1,3 +1,14 @@
+/**
+ *  @author Manuel Gonzalez
+ *  assignment!
+ *  @file app.js
+ *  Javascript that creates the server
+ */
+
+
+
+
+
 'use strict';
 var debug = require('debug');
 var express = require('express');

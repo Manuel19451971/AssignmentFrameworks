@@ -1,3 +1,10 @@
+/**
+ *  @author Manuel Gonzalez
+ *  assignment!
+ *  @file user.js
+ *  It has all the router for the server
+ */
+
 'use strict';
 var express = require('express');
 var router = express.Router();
