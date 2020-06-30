@@ -3,6 +3,7 @@
  *  assignment!
  *  @file ContactMe.pug
  *  Pug file that has my contact infomation
+ *  I got the form from bootstrap, and their i turned to a pug file.
  //
 
 
@@ -19,4 +20,11 @@ block content
       | Address: Heaven
       br
 
-
+  form(action='/forms/contact' method="POST")
+    .form-group
+      label(for='exampleFormControlInput1') Email address
+      input#email.form-control(type='email' placeholder='name@example.com')
+    .form-group
+      label(for='exampleFormControlTextarea1') Example textarea
+      textarea#message.form-control(rows='3')
+    button.btn.btn-primary(type='submit') Submit

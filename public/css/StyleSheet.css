@@ -1,12 +1,30 @@
 
+/*
+    @author Manuel Gonzalez
+ assignment!
+ @file stylesheet.css
+ css file.
+
+
+
+*/
+ 
 
 
 body {
+}
+
+h1 {
+   
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
 }
 
 
 p {
     background-color: lightgrey;
     font-style: italic;
-
 }
+
+
